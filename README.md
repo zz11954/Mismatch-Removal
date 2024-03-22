@@ -33,7 +33,10 @@
 - [RPM-MR] Nonrigid Point Set Registration with Robust Transformation Learning under Manifold Regularization, TNNLS'2019 [[pdf]](https://pdfs.semanticscholar.org/e8c9/75165ffc5af6cad6961b25f29ea112ae50dd.pdf) [[code]](https://github.com/jiayi-ma?tab=repositories)
 
 ### Relaxed Methods
-
+- A spectral technique for correspondence problems using pairwise constraints,ICCV'2005,[[pdf]](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/leordeanu-iccv-05.pdf)
+- Common visual pattern discovery via spatially coherent correspondences,CVPR'2010,[[pdf]](https://sci-hub.ru/10.1109/cvpr.2010.5539780)
+- Feature matching with bounded distortion,TOG'2014,[[pdf]](https://sci-hub.ru/10.1145/2602142)
+- 
 
 ## Learning-based Methods
 
