@@ -24,7 +24,14 @@
 ### Non-parametric Model-Based Methods
 - Fast non-rigid surface detection, registration and realistic augmentation.,IJCV'2007[[pdf]](https://vincentlepetit.github.io/files/papers/comp_pilet_ijcv07.pdf)
 - Direct estimation of nonrigid registrations with image-based self-occlusion reasoning.,ICCV'2007,[[pdf]](https://ieeexplore.ieee.org/document/4408989)
-- 
+- [ICF/SVR] Rejecting mismatches by correspondence function, IJCV'2010 [[pdf]](http://www.nlpr.ia.ac.cn/2010papers/kz/gk24.pdf)
+- Regularized vector field learning with sparse approximation for mismatch removal,PR'2013[[pdf]](https://pages.ucsd.edu/~ztu/publication/pr13_robustmatching.pdf)[[code]](https://github.com/jiayi-ma/VFC)
+- [RPM-VFC] Robust Point Matching via Vector Field Consensus, TIP'2014 [[pdf]](http://or.nsfc.gov.cn/bitstream/00001903-5/99530/1/1000009269450.pdf) [[code]](https://github.com/jiayi-ma?tab=repositories)
+- Robust l2e estimation of transformation for non-rigid registration,TSP'2015,[[pdf]](https://www.researchgate.net/profile/Jiayi_Ma/publication/273176803_Robust_L2E_Estimation_of_Transformation_for_Non-Rigid_Registration/links/552142f10cf2f9c130512304.pdf) [[code]](https://github.com/jiayi-ma?tab=repositories)
+- [LLT] Robust feature matching for remote sensing image registration via locally linear transforming, TGRS'2015 [[pdf]](https://yuan-gao.net/pdf/TGRS2015.pdf) [[code]](https://github.com/jiayi-ma?tab=repositories)
+- Feature guided Gaussian mixture model with semi-supervised em and local geometric constraint for retinal image registration,IS'2017[[pdf]](https://sci-hub.ru/10.1016/j.ins.2017.07.010)
+- [RPM-MR] Nonrigid Point Set Registration with Robust Transformation Learning under Manifold Regularization, TNNLS'2019 [[pdf]](https://pdfs.semanticscholar.org/e8c9/75165ffc5af6cad6961b25f29ea112ae50dd.pdf) [[code]](https://github.com/jiayi-ma?tab=repositories)
+
 ### Relaxed Methods
 
 
