@@ -12,7 +12,7 @@
 - [NAPSAC]Napsac: High noise, high dimensional robust estimation-it’s in the bag，BMVC'2002[[pdf]](https://d1wqtxts1xzle7.cloudfront.net/51485218/NAPSAC_High_Noise_High_Dimensional_Robus20170123-23393-jxxcl1-libre.pdf?1485199178=&response-content-disposition=inline%3B+filename%3DNapsac_High_Noise_High_Dimensional_Robus.pdf&Expires=1711038934&Signature=Sk4FynbP~i6Ldh3fCffGfi2G-0MayDfLfkGaavAFkFyLhNRaM5VSccpsnqz3yXUos7Phy8cwLwMAjCZo3ye-yfCdEZVS3lQklsK1hdWyzwTgI9YUXHaI3xzYHNrQlIpa-4tSWIem9BP4oBCC7DDKoa5LOKuFXlRso98JBssYx7rz8SI5Ash2zYarn77~llu4YMKVb-dCnPZ6pJaD9wpMqt55JgsNd4Qs49iBVjR5XesQ8eD-V8Ol~Uag~UDac8aHx7TGQzkl7Nn8yHhzeYPwLSCuFN8-VupY94mZQPfkVl9TMhycSiBga45zAovHjGWgP9wRfLUhdbbkRXVeyLmWAg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
 - [LO-RANSAC] Locally Optimized RANSAC,[[pdf]],2003,(https://cmp.felk.cvut.cz/~chum/papers/chum-DAGM03.pdf)
 - [PROSAC] Matching with PROSAC-progressive sample consensus, CVPR'2005 [[pdf]](https://dspace.cvut.cz/bitstream/handle/10467/9496/2005-Matching-with-PROSAC-progressive-sample-consensus.pdf?sequence=1) [[code_pcl]](https://github.com/PointCloudLibrary/pcl/tree/master/sample_consensus/include/pcl/sample_consensus)
-- [Groupsac] GroupSAC: Efficient consensus in the presence of groupings,ICCV'2009 [[pdf]](https://ieeexplore.ieee.org/document/5459241)
+- [GroupSAC] GroupSAC: Efficient consensus in the presence of groupings,ICCV'2009 [[pdf]](https://ieeexplore.ieee.org/document/5459241)
 - [USAC] A universal framework for random sample consensus.TPAMI'2012,[[pdf]](https://ieeexplore.ieee.org/document/6365642)
 - [EVSAC] EVSAC: Accelerating Hypotheses Generation by Modeling Matching Scores with Extreme Value Theory, ICCV'2013 [[pdf]](https://ieeexplore.ieee.org/document/6751418)
 - [GC-RANSAC] Graph-Cut RANSAC, CVPR'2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Barath_Graph-Cut_RANSAC_CVPR_2018_paper.pdf) [[code]](https://github.com/danini/graph-cut-ransac)
@@ -36,7 +36,13 @@
 - A spectral technique for correspondence problems using pairwise constraints,ICCV'2005,[[pdf]](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/leordeanu-iccv-05.pdf)
 - Common visual pattern discovery via spatially coherent correspondences,CVPR'2010,[[pdf]](https://sci-hub.ru/10.1109/cvpr.2010.5539780)
 - Feature matching with bounded distortion,TOG'2014,[[pdf]](https://sci-hub.ru/10.1145/2602142)
+- [BF] Bilateral Functions for Global Motion Modeling, ECCV'2014 [[pdf]](http://mftp.mmcheng.net/Papers/CoherentModelingS.pdf) [[project]](https://mmcheng.net/bfun/) [[code]](http://mftp.mmcheng.net/Data/eccv_2014_release.zip)
+- [CODE] Code: Coherence based decision boundaries for feature correspondence, TPAMI'2018 [[pdf]](https://ora.ox.ac.uk/objects/uuid:0e5a62ab-fb69-472f-a1e1-49d49595db62/download_file?safe_filename=matching.pdf&file_format=application%2Fpdf&type_of_work=Journal+article) [[project]](http://www.kind-of-works.com/CODE_matching.html)
+- [GLPM] Guided Locality Preserving Feature Matching for Remote Sensing Image Registration, TGRS'2018 [[pdf]](https://ieeexplore.ieee.org/abstract/document/8340808/)
+- [LPM] Locality preserving matching, IJCV'2019 [[pdf]](https://link.springer.com/article/10.1007/s11263-018-1117-z) [[code]](https://github.com/jiayi-ma?tab=repositories)
+- [GMS] GMS: Grid-based Motion Statistics for Fast, Ultra-robust Feature Correspondence, CVPR'2017 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bian_GMS_Grid-based_Motion_CVPR_2017_paper.pdf) [[code]](https://github.com/JiawangBian/GMS-Feature-Matcher)
+- [RFM-SCAN] Robust feature matching using spatial clustering with heavy outliers,TIP'2020,[[pdf]](https://starainj.github.io/Files/TIP2020-RFM-SACN.pdf)[[code]](https://github.com/StaRainJ/RFM-SCAN)
+- Progressive feature matching: Incremental graph construction and optimization,TIP'2020,[[pdf]](https://sci-hub.ru/10.1109/tip.2020.2996092)[[code]](https://sites.google.com/view/sehyung/home/projects/progressive-feature-matching)
 - 
-
 ## Learning-based Methods
 
