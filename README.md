@@ -1,12 +1,11 @@
 # Awesome-Mismatch-Removal
 
 [TOC]
->Methods for eliminating mismatches can be broadly classified into manual methods and deep learning-based methods. Manual methods can be further classified into resampling-based methods, non-parametric model-based methods, and relaxed geometric constraint-based methods, each of which relies on different fundamentals.
+>Methods for eliminating mismatches can be broadly classified into manual methods and deep learning-based methods. Manual methods can be further classified into resampling-based methods, non-parametric model-based methods, and relaxed geometric constraint-based methods.
 
 ## Manual Methods
 
 ### Resampling-Based Methods
-
 - [RANSAC] Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography, 1981 [[pdf]](https://apps.dtic.mil/dtic/tr/fulltext/u2/a460585.pdf) [[wiki]](https://en.wikipedia.org/wiki/Random_sample_consensus)
 - [MLESAC] MLESAC: A new robust estimator with application to estimating image geometry, CVIU'2000 [[pdf]](http://www.academia.edu/download/3436793/torr_mlesac.pdf) [[code_pcl]](https://github.com/PointCloudLibrary/pcl/tree/master/sample_consensus/include/pcl/sample_consensus)
 - [NAPSAC]Napsac: High noise, high dimensional robust estimation-it’s in the bag，BMVC'2002[[pdf]](https://d1wqtxts1xzle7.cloudfront.net/51485218/NAPSAC_High_Noise_High_Dimensional_Robus20170123-23393-jxxcl1-libre.pdf?1485199178=&response-content-disposition=inline%3B+filename%3DNapsac_High_Noise_High_Dimensional_Robus.pdf&Expires=1711038934&Signature=Sk4FynbP~i6Ldh3fCffGfi2G-0MayDfLfkGaavAFkFyLhNRaM5VSccpsnqz3yXUos7Phy8cwLwMAjCZo3ye-yfCdEZVS3lQklsK1hdWyzwTgI9YUXHaI3xzYHNrQlIpa-4tSWIem9BP4oBCC7DDKoa5LOKuFXlRso98JBssYx7rz8SI5Ash2zYarn77~llu4YMKVb-dCnPZ6pJaD9wpMqt55JgsNd4Qs49iBVjR5XesQ8eD-V8Ol~Uag~UDac8aHx7TGQzkl7Nn8yHhzeYPwLSCuFN8-VupY94mZQPfkVl9TMhycSiBga45zAovHjGWgP9wRfLUhdbbkRXVeyLmWAg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
@@ -45,22 +44,36 @@
 - Progressive feature matching: Incremental graph construction and optimization,TIP'2020,[[pdf]](https://sci-hub.ru/10.1109/tip.2020.2996092)[[code]](https://sites.google.com/view/sehyung/home/projects/progressive-feature-matching)
 
 ## Learning-based Methods
-- Sinkhorn networks: Using optimal transport techniques to learn permutations,NIPS'2017,[[pdf]](http://www.stat.columbia.edu/~gonzalo/pubs/SinkhornOT.pdf)
-- [N3Net] Neural Nearest Neighbors Networks, NeurIPS'2018 [[code]](https://github.com/visinf/n3net/)
 - [LFGC] Learning to Find Good Correspondences, CVPR'2018 [[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1453.pdf) [[code]](https://github.com/vcg-uvic/learned-correspondence-release)
+- [DFE] Deep fundamental matrix estimation, ECCV'2018[[pdf]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Rene_Ranftl_Deep_Fundamental_Matrix_ECCV_2018_paper.pdf) [[code]](https://github.com/isl-org/DFE)
+- [N3Net] Neural Nearest Neighbors Networks, NeurIPS'2018 [[code]](https://github.com/visinf/n3net/)
+- [NM-Net] NM-Net: Mining Reliable Neighbors for Robust Feature Correspondences, arXiv'2019 [[pdf]](https://arxiv.org/pdf/1904.00320)
 - [OANet] Learning Two-View Correspondences and Geometry Using Order-Aware Network ICCV'2019 [[code]](https://github.com/zjhthu/OANet)
 - [LMR] LMR: Learning A Two-class Classifier for Mismatch Removal, TIP'2019 [[pdf]](https://ieeexplore.ieee.org/abstract/document/8672170/) [[code]](https://github.com/StaRainJ/LMR)
+- [NG-RANSAC] Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses, ICCV'2019 [[pdf](https://arxiv.org/pdf/1905.04132.pdf)] [[code](https://github.com/vislearn/ngransac)] [[project](https://hci.iwr.uni-heidelberg.de/vislearn/research/neural-guided-ransac/)]
+- [ULCM] Unsupervised Learning of Consensus Maximization for 3D Vision Problems, CVPR'2019 [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Probst_Unsupervised_Learning_of_Consensus_Maximization_for_3D_Vision_Problems_CVPR_2019_paper.pdf)
+-[GLHA] Cascade Network with Guided Loss and Hybrid Attention for Finding Good Correspondences,AAAI'2021[[pdf]](https://arxiv.org/abs/2102.00411)[[code]](https://github.com/wenbingtao/GLHA)
 - [ACNe] ACNe: Attentive context normalization for robust permutation-equivariant learning, CVPR'2020[[code]](https://github.com/vcg-uvic/acne)
 - [SuperGlue] SuperGlue: Learning Feature Matching with Graph Neural Networks, CVPR'2020 [[code]](https://github.com/magicleap/SuperGluePretrainedNetwork)
-- [SGMNet] Learning to match features with seeded graph matching network,ICCV'2021[[pdf]](https://arxiv.org/abs/2108.08771)[[code]](https://github.com/vdvchen/SGMNet)
 - [LSV-ANet] LSV-ANet: Deep Learning on Local Structure Visualization for Feature Matching,TGRS'2021,[[pdf]](https://ieeexplore.ieee.org/document/9377555)
+- [LMCNet] Learnable motion coherence for correspondence pruning,CVPR'2021 [[pdf]](https://arxiv.org/abs/2011.14563)[[code]](https://github.com/liuyuan-pal/LMCNet)
+- [CLNet] Progressive correspondence pruning by consensus learning,ICCV'2021 [[pdf]](https://arxiv.org/abs/2101.00591)
+- [TNet] T-Net: Effective permutation-equivariant network for two-view correspondence learning,ICCV'2021[[pdf]](https://arxiv.org/abs/2101.00591)
+- [MSANet]MSA-net: Establishing reliable correspondences by multiscale attention network,TIP'2022[[pdf]](https://guobaoxiao.github.io/papers/TIP2022b(1).pdf)
+- [CAT-Net] Correspondence attention transformer: A context-sensitive network for two-view correspondence learning,TMM'2022[[pdf]](https://www.researchgate.net/profile/Yang-Wang-241/publication/359451839_Correspondence_Attention_Transformer_A_Context-sensitive_Network_for_Two-view_Correspondence_Learning/links/62ce44b3b261d22751eb64d4/Correspondence-Attention-Transformer-A-Context-Sensitive-Network-for-Two-View-Correspondence-Learning.pdf)
+- [CSR-net]CSR-net: Learning adaptive context structure representation for robust feature correspondence,TIP'2022[[pdf]](https://ieeexplore.ieee.org/document/9758641)
 - [GANet] Learning for mismatch removal via graph attention networks,ISPRS J PHOTOGRAMM'2022,[[pdf]](https://www.researchgate.net/profile/Yang-Wang-241/publication/361865594_Learning_for_mismatch_removal_via_graph_attention_networks/links/62ce43a06151ad090b9794dd/Learning-for-mismatch-removal-via-graph-attention-networks.pdf)[[code]](https://github.com/StaRainJ/Code-of-GANet)
-- [ClusterGNN] Clustergnn: Cluster-based coarse-to-fine graph neural network for efficient feature matching,CVPR'2022,[[pdf]](https://arxiv.org/abs/2204.11700)
-- [HTMatch] HTMatch: An efficient hybrid transformer based graph neural network
-for local feature matching,2023,[[pdf]](https://pdf.sciencedirectassets.com/271605/1-s2.0-S0165168422X0011X/1-s2.0-S016516842200398X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECgaCXVzLWVhc3QtMSJIMEYCIQDvgomnDV9%2BnRpCH61%2FzLXxe5UfhrFMHmdHkzSn0JivhwIhAOE%2BL1XtzU4PTvsYVF9vwfffzH6pv8S9%2Bkk%2B4XCCH0yNKrMFCEEQBRoMMDU5MDAzNTQ2ODY1IgxmSJ2VtF0L0rzsv0wqkAUI0fExFNXcwUeD4CMU9ShPlH7H198hgYoua6Izb6SWJi2TFhSyiWZqnwEPoyy88Q4xNOs2PuWeZ0DsakOZIHcqGrx0kg9wmaV%2FPxdJjZVZoAe6PQIhlm3iQ%2FXH5Bm4u6aozBSrMFEYR%2BrjxKzytVnYcT1IKwiabeJs4nofedsokTTRUyR3%2FG4vDMWN6MpLB4AfZ8hvkSkfSQ4PzrwVC58TAgDjq5bqp3LxPNAuuQr%2Bi4AIS%2FNTIWdn0f7zGIE8s13JWLnEdLbzNqJ1c87%2B3Skm9DA54rlyrkn1xW7LE%2FUr99a%2FMNp1DovSQl%2FslOWNW%2FoGIB8ssM1zZrcWR7bklmP%2BW33ymVQEua%2F1ciNhcbpR71anfqsz9alKd73XU%2B2%2FOLn8LvZbnWijD4qI5MzAUOMJNl%2BBXMibGn8w3gm45q5BMzlJRga9DueG3ApJ3hur8IhS6llX3vGC2AgPwU03dU%2BJfr5a%2FGNvroD4%2BNIUAbqD8BGiD29RIoQ08QpQXGVLLsj75Yl7k0rVK1%2FI4DPINwFiU%2FDV5IkM%2F2NQ24yKkq4nOVzSetGLfxOkCxxb1hXiclu29tqpeeglnKt4s1vSsvXX4%2FhC3yFbxn7KB4K8ASy6%2Bbn%2Ffzc7O7%2F29Khp9CQtcesDYLsN7QWTRxpyiGA25%2Be5IcP1Jic%2BB%2F2q4J85vB%2B1ZaM%2Bsx0q3PiWqrOn%2BB9Idvpv9O1ttDz9GjAdBHnAeaUi6YgIw0apLfYBvNhrQ33fhFJDETo3NFCe73mmRkfNeFclteeOlUo85hwd2R1mQDyQjh81fzyxiSrBuVZwn0gBnkMpwLeFF2CRFTJvVZsYGYSqQ%2Fn4%2FbWMHi%2FvwrhiRpxHCDlov41ineLvazMIBS%2FEvjCY8PSvBjqwAb0LGkYb7%2FarhhXoyqmkK1jOXGnYkOby6LyBj4YN6AkQU%2Br2DpQ%2Fb2D0d7QlLigT%2FKoYgCepFMDiqBfSSMcx9Gk0v72irmcNj5dpPtKa1CZbx1klHRlRsRibtiQRAtDCuOlmWK6WHHFYiIyStFVQLHwOk0hclvU%2FqW%2BHlURA84rlwh%2F%2BskMQrmJhnSxgIuvqrMj%2B1QBsYZE6tp1SavZKdr7ZDvPOMtvmHideelvEfQIt&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240322T090030Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYXOXYDMMX%2F20240322%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5632d0243a1e168a6d51538cc2eedf28449a6dbb76e941adc5c157982a8fa5b2&hash=325674c5946dffcc5e7e1014ac2aff924e612aea14f82c144c69e01430accbb0&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S016516842200398X&tid=spdf-6c56f404-74d5-437d-b051-005d611ef8ec&sid=ca1b34125e7e784bb40948c26b3c76540691gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=190859505b5701010a5405&rr=8684fde0ba9824fc&cc=cn)
+-[MS2DGNet] MS2DGNet: Progressive correspondence learning via multiple sparse semantics dynamic graph,CVPR'2022[[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Dai_MS2DG-Net_Progressive_Correspondence_Learning_via_Multiple_Sparse_Semantics_Dynamic_Graph_CVPR_2022_paper.pdf)[[code]](https://github.com/changcaiyang/MS2DG-Net)
+- [NeFSAC] NeFSAC: Neurally filtered minimal samples,ECCV'2022[[pdf]](https://arxiv.org/abs/2207.07872)[[code]](https://github.com/cavalli1234/NeFSAC)
+- [PGFNet]]PGFNet: Preference-guided filtering network for two-view correspondence learning,TIP'2023[[pdf]](https://ieeexplore.ieee.org/document/10041834)[[code]](https://github.com/guobaoxiao/PGFNet)
+- [JRANet] JRA-net: Joint representation attention network for correspondence learning,PR'2023[[pdf]](https://www.sciencedirect.com/science/article/pii/S0031320322006598)
+- [GCANet] Learning for feature matching via graph context attention,TGARS'2023[[pdf]](https://ieeexplore.ieee.org/document/10075633)
+- [ANA-Net]Learning second-order attentive context for efficient correspondence pruning,AAAI'2023[[pdf]](https://arxiv.org/abs/2303.15761)
+- [RLSAC] RLSAC: Reinforcement Learning enhanced Sample Consensus for End-to-End Robust Estimation,ICCV'2023[[pdf]](https://arxiv.org/pdf/2308.05318.pdf)[[code]](https://github.com/IRMVLab/RLSAC)
+- [GlueStick] GlueStick: Robust Image Matching by Sticking Points and Lines Together, ICCV'2023 [[pdf]](https://arxiv.org/pdf/2304.02008.pdf) [[code]](https://github.com/cvg/GlueStick)
 - [RoMa] RoMa: Robust Dense Feature Matching, CVPR'2024 [[pdf]](https://arxiv.org/abs/2305.15404) [[code]](https://github.com/Parskatt/RoMa)
-
-
+- [MESA] MESA: Matching Everything by Segmenting Anything, CVPR'2024 [[pdf]](https://arxiv.org/abs/2401.16741)
+- [VSFormer] VSFormer: Visual-Spatial Fusion Transformer for Correspondence Prunin，AAAI'2024[[pdf]](https://arxiv.org/pdf/2312.08774.pdf)[[code]](https://github.com/sugar-fly/VSFormer)
 
 
 
