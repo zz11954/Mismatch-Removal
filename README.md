@@ -1,3 +1,10 @@
+
+
+
+# Awesome-Mismatch-Removal
+
+Methods for eliminating mismatches can be broadly classified into manual methods and deep learning-based methods. Manual methods can be further classified into resampling-based methods, non-parametric model-based methods, and relaxed geometric constraint-based methods.
+
 - [Awesome-Mismatch-Removal](#awesome-mismatch-removal)
   - [Manual Methods](#manual-methods)
     - [Resampling-Based Methods](#resampling-based-methods)
@@ -5,15 +12,8 @@
     - [Relaxed Methods](#relaxed-methods)
   - [Learning-based Methods](#learning-based-methods)
 
-
-
-# Awesome-Mismatch-Removal
-
-
-Methods for eliminating mismatches can be broadly classified into manual methods and deep learning-based methods. Manual methods can be further classified into resampling-based methods, non-parametric model-based methods, and relaxed geometric constraint-based methods.
-
+***
 ## Manual Methods
-
 ### Resampling-Based Methods
 - [RANSAC] Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography, 1981 [[pdf]](https://apps.dtic.mil/dtic/tr/fulltext/u2/a460585.pdf) [[wiki]](https://en.wikipedia.org/wiki/Random_sample_consensus)
 - [MLESAC] MLESAC: A new robust estimator with application to estimating image geometry, CVIU'2000 [[pdf]](http://www.academia.edu/download/3436793/torr_mlesac.pdf) [[code_pcl]](https://github.com/PointCloudLibrary/pcl/tree/master/sample_consensus/include/pcl/sample_consensus)
