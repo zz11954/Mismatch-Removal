@@ -1,7 +1,16 @@
+- [Awesome-Mismatch-Removal](#awesome-mismatch-removal)
+  - [Manual Methods](#manual-methods)
+    - [Resampling-Based Methods](#resampling-based-methods)
+    - [Non-parametric Model-Based Methods](#non-parametric-model-based-methods)
+    - [Relaxed Methods](#relaxed-methods)
+  - [Learning-based Methods](#learning-based-methods)
+
+
+
 # Awesome-Mismatch-Removal
 
-[TOC]
->Methods for eliminating mismatches can be broadly classified into manual methods and deep learning-based methods. Manual methods can be further classified into resampling-based methods, non-parametric model-based methods, and relaxed geometric constraint-based methods.
+
+Methods for eliminating mismatches can be broadly classified into manual methods and deep learning-based methods. Manual methods can be further classified into resampling-based methods, non-parametric model-based methods, and relaxed geometric constraint-based methods.
 
 ## Manual Methods
 
