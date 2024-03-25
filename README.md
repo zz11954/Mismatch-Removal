@@ -129,7 +129,10 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [VSFormer] VSFormer: Visual-Spatial Fusion Transformer for Correspondence Pruning,AAAI'2024[[pdf]](https://arxiv.org/pdf/2312.08774.pdf)[[code]](https://github.com/sugar-fly/VSFormer)
 - [MatchDet] MatchDet: A Collaborative Framework for Image Matching and Object Detection,AAAI'2024[[pdf]](https://arxiv.org/abs/2312.10983)
 - [ResMatch] ResMatch: Residual Attention Learning for Local Feature Matching,AAAI'2024[[pdf]](https://arxiv.org/abs/2307.05180)[[code]](https://github.com/ACuOoOoO/ResMatch)
-
+- [GCT-Net] Graph Context Transformation Learning for Progressive Correspondence Pruning,AAAI'2024[[pdf]](https://arxiv.org/abs/2312.15971)
+- [BCLNet] BCLNet: Bilateral Consensus Learning for Two-View Correspondence Pruning,AAAI'2024[[pdf]](https://arxiv.org/abs/2401.03459)
+- [MSGA-Net] MSGA-Net: Progressive Feature Matching via Multi-layer Sparse Graph Attention,TCSVT'2024[[pdf]](https://ieeexplore.ieee.org/document/10439184)
+- [GIM] GIM: LEARNING GENERALIZABLE IMAGE MATCHER FROM INTERNET VIDEOS,ICLR'2024[[pdf]](https://arxiv.org/abs/2402.11095)[[code]](https://github.com/xuelunshen/gim)
 
 
 
