@@ -110,7 +110,6 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [FSNet] Two-View Geometry Scoring Without Correspondences, CVPR'2023 [[code]](https://github.com/nianticlabs/scoring-without-correspondences)
 - [PGFNet]]PGFNet: Preference-guided filtering network for two-view correspondence learning,TIP'2023[[pdf]](https://ieeexplore.ieee.org/document/10041834)[[code]](https://github.com/guobaoxiao/PGFNet)
 - [PDC-Net+] PDC-Net+: Enhanced Probabilistic Dense Correspondence Network,TPAMI'2023[[pdf]](https://arxiv.org/pdf/2109.13912.pdf)[[code]](https://github.com/PruneTruong/DenseMatching)
-- [DINOv2] DINOv2: Learning Robust Visual Features without Supervision,arxiv'2023[[pdf]](https://arxiv.org/abs/2304.07193)
 - [JRANet] JRA-net: Joint representation attention network for correspondence learning,PR'2023[[pdf]](https://www.sciencedirect.com/science/article/pii/S0031320322006598)
 - [GCANet] Learning for feature matching via graph context attention,TGARS'2023[[pdf]](https://ieeexplore.ieee.org/document/10075633)
 - [RLSAC] RLSAC: Reinforcement Learning enhanced Sample Consensus for End-to-End Robust Estimation,ICCV'2023[[pdf]](https://arxiv.org/pdf/2308.05318.pdf)[[code]](https://github.com/IRMVLab/RLSAC)
