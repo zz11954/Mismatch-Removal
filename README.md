@@ -107,7 +107,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [PATS] PATS: Patch Area Transportation with Subdivision for Local Feature Matching, CVPR'2023 [[code]](https://zju3dv.github.io/pats/)
 - [NCMNet] Progressive Neighbor Consistency Mining for Correspondence Pruning, CVPR'2023 [[code]](https://github.com/xinliu29/NCMNet)
 - [AdaMatcher] Adaptive Assignment for Geometry Aware Local Feature Matching, CVPR'2023 [[code]](https://github.com/AbyssGaze/AdaMatcher)
-- [SEM] Structured Epipolar Matcher for Local Feature Matching, CVPR'2023 [[code]](https://sem2023.github.io/)
+- [SEM] Structured Epipolar Matcher for Local Feature Matching, CVPRW'2023 [[code]](https://sem2023.github.io/)
 - [FSNet] Two-View Geometry Scoring Without Correspondences, CVPR'2023 [[code]](https://github.com/nianticlabs/scoring-without-correspondences)
 - [PGFNet]]PGFNet: Preference-guided filtering network for two-view correspondence learning,TIP'2023[[pdf]](https://ieeexplore.ieee.org/document/10041834)[[code]](https://github.com/guobaoxiao/PGFNet)
 - [PDC-Net+] PDC-Net+: Enhanced Probabilistic Dense Correspondence Network,TPAMI'2023[[pdf]](https://arxiv.org/pdf/2109.13912.pdf)[[code]](https://github.com/PruneTruong/DenseMatching)
@@ -123,6 +123,8 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [HTMatch] HTMatch: An efficient hybrid transformer based graph neural network for local feature matching,SP'2023[[pdf]](https://www.sciencedirect.com/science/article/pii/S016516842200398X)
 - [SGA-Net] SGA-Net: A Sparse Graph Attention Network for Two-View Correspondence Learning,TCSVT'2023[[pdf]](https://ieeexplore.ieee.org/abstract/document/10124002)
 - [DeepMatcher] DeepMatcher: A deep transformer-based network for robust and accurate local feature matching,ESWA'2023[[pdf]](https://arxiv.org/abs/2301.02993)
+- Topological RANSAC for instance verification and retrieval without fine-tuning,NeurIPS'2023[[pdf]](https://arxiv.org/abs/2310.06486)[[code]](https://github.com/anguoyuan/Topological-RANSAC)
+- Emergent Correspondence from Image Diffusion,NeurIPS'2023[[pdf]](https://arxiv.org/abs/2306.03881)[[code]](https://github.com/Tsingularity/dift)
 - [RoMa] RoMa: Robust Dense Feature Matching, CVPR'2024 [[pdf]](https://arxiv.org/abs/2305.15404) [[code]](https://github.com/Parskatt/RoMa)
 - [MESA] MESA: Matching Everything by Segmenting Anything, CVPR'2024 [[pdf]](https://arxiv.org/abs/2401.16741)
 - [Efficient LoFTR] Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed, CVPR'2024 [[pdf]](https://zju3dv.github.io/efficientloftr/files/EfficientLoFTR.pdf) [[code]](https://github.com/zju3dv/efficientloftr)
@@ -132,7 +134,9 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [GCT-Net] Graph Context Transformation Learning for Progressive Correspondence Pruning,AAAI'2024[[pdf]](https://arxiv.org/abs/2312.15971)
 - [BCLNet] BCLNet: Bilateral Consensus Learning for Two-View Correspondence Pruning,AAAI'2024[[pdf]](https://arxiv.org/abs/2401.03459)
 - [MSGA-Net] MSGA-Net: Progressive Feature Matching via Multi-layer Sparse Graph Attention,TCSVT'2024[[pdf]](https://ieeexplore.ieee.org/document/10439184)
-- [GIM] GIM: LEARNING GENERALIZABLE IMAGE MATCHER FROM INTERNET VIDEOS,ICLR'2024[[pdf]](https://arxiv.org/abs/2402.11095)[[code]](https://github.com/xuelunshen/gim)
+- [GIM] GIM: Learning Generalizable Image Matcher From Internet Videos,ICLR'2024[[pdf]](https://arxiv.org/abs/2402.11095)[[code]](https://github.com/xuelunshen/gim)
+- Diffusion Model for Dense Matching，ICLR'2024[[pdf]](https://arxiv.org/pdf/2305.19094.pdf)[[code]](https://github.com/KU-CVLAB/DiffMatch)
+- 
 
 
 
