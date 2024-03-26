@@ -119,7 +119,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [CasMTR] Improving Transformer-based Image Matching by Cascaded Capturing Spatially Informative Keypoints,ICCV'2023[[pdf]](https://arxiv.org/abs/2303.02885)[[code]](https://github.com/ewrfcas/CasMTR)
 - [GlueStick] GlueStick: Robust Image Matching by Sticking Points and Lines Together, ICCV'2023 [[pdf]](https://arxiv.org/pdf/2304.02008.pdf) [[code]](https://github.com/cvg/GlueStick)
 - [∇-RANSAC] Generalized Differentiable RANSAC,ICCV'2023[[pdf]](https://arxiv.org/pdf/2212.13185.pdf)[[code]](https://github.com/weitong8591/differentiable_ransac)
-
+- Adaptive Reordering Sampler with Neurally Guided MAGSAC,ICCV'2023[[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wei_Adaptive_Reordering_Sampler_with_Neurally_Guided_MAGSAC_ICCV_2023_paper.pdf)[[code]](https://github.com/weitong8591/ars_magsac)
 - [CA-RANSAC] Consensus-Adaptive RANSAC,arxiv'2023[[pdf]](https://arxiv.org/pdf/2307.14030.pdf)[[code]](https://github.com/cavalli1234/CA-RANSAC)
 - [OAMatcher] OAMatcher: An Overlapping Areas-based Network for Accurate Local Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2302.05846)[[code]](https://github.com/DK-HU/OAMatcher)
 - [SGAM] Searching from Area to Point: A Hierarchical Framework for Semantic-Geometric Combined Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2305.00194)
@@ -142,7 +142,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [GIM] GIM: Learning Generalizable Image Matcher From Internet Videos,ICLR'2024[[pdf]](https://arxiv.org/abs/2402.11095)[[code]](https://github.com/xuelunshen/gim)
 - Diffusion Model for Dense Matching,ICLR'2024[[pdf]](https://arxiv.org/pdf/2305.19094.pdf)[[code]](https://github.com/KU-CVLAB/DiffMatch)
 - [HCPM] HCPM: Hierarchical Candidates Pruning for Efficient Detector-Free Matching,arxiv'2024[[pdf]](https://arxiv.org/pdf/2403.12543.pdf)
-
+-[SSL-Net] SSL-Net: Sparse semantic learning for identifying reliable correspondences,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S0031320323007367)[[code]](https://github.com/guobaoxiao/SSL-Net)
 
 
 
