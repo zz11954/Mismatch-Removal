@@ -118,9 +118,12 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [SiLK] SiLK: Simple Learned Keypoints,ICCV'2023[[pdf]](https://arxiv.org/abs/2304.06194)[[code]](https://github.com/facebookresearch/silk)
 - [CasMTR] Improving Transformer-based Image Matching by Cascaded Capturing Spatially Informative Keypoints,ICCV'2023[[pdf]](https://arxiv.org/abs/2303.02885)[[code]](https://github.com/ewrfcas/CasMTR)
 - [GlueStick] GlueStick: Robust Image Matching by Sticking Points and Lines Together, ICCV'2023 [[pdf]](https://arxiv.org/pdf/2304.02008.pdf) [[code]](https://github.com/cvg/GlueStick)
+- Guiding Local Feature Matching with Surface Curvature,ICCV'2023[[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Guiding_Local_Feature_Matching_with_Surface_Curvature_ICCV_2023_paper.pdf)
 - [∇-RANSAC] Generalized Differentiable RANSAC,ICCV'2023[[pdf]](https://arxiv.org/pdf/2212.13185.pdf)[[code]](https://github.com/weitong8591/differentiable_ransac)
 - Adaptive Reordering Sampler with Neurally Guided MAGSAC,ICCV'2023[[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wei_Adaptive_Reordering_Sampler_with_Neurally_Guided_MAGSAC_ICCV_2023_paper.pdf)[[code]](https://github.com/weitong8591/ars_magsac)
+- Scene-Aware Feature Matching,ICCV'2023[[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_Scene-Aware_Feature_Matching_ICCV_2023_paper.pdf)
 - [CA-RANSAC] Consensus-Adaptive RANSAC,arxiv'2023[[pdf]](https://arxiv.org/pdf/2307.14030.pdf)[[code]](https://github.com/cavalli1234/CA-RANSAC)
+- [FMRT]  FMRT: Learning Accurate Feature Matching with Reconciliatory Transformer,arxiv'2023[[pdf]](https://arxiv.org/pdf/2310.13605.pdf)
 - [OAMatcher] OAMatcher: An Overlapping Areas-based Network for Accurate Local Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2302.05846)[[code]](https://github.com/DK-HU/OAMatcher)
 - [SGAM] Searching from Area to Point: A Hierarchical Framework for Semantic-Geometric Combined Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2305.00194)
 - Sparse-to-Local-Dense Matching for Geometry-Guided Correspondence Estimation,TIP'2023[[pdf]](https://ieeexplore.ieee.org/document/10159656)
@@ -143,7 +146,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - Diffusion Model for Dense Matching,ICLR'2024[[pdf]](https://arxiv.org/pdf/2305.19094.pdf)[[code]](https://github.com/KU-CVLAB/DiffMatch)
 - [HCPM] HCPM: Hierarchical Candidates Pruning for Efficient Detector-Free Matching,arxiv'2024[[pdf]](https://arxiv.org/pdf/2403.12543.pdf)
 -[SSL-Net] SSL-Net: Sparse semantic learning for identifying reliable correspondences,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S0031320323007367)[[code]](https://github.com/guobaoxiao/SSL-Net)
-
+- Local topology similarity guided probabilistic sampling for mismatch removal PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S003132032400044X)
 
 
 
