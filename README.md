@@ -31,7 +31,8 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [P-NAPSAC] Progressive NAPSAC: sampling from gradually growing neighborhoods,2019[[pdf]](https://arxiv.org/abs/1906.02295)
 - [MAGSAC++] MAGSAC++, a fast, reliable and accurate robust estimator,CVPR'2020[[pdf]](https://arxiv.org/abs/1912.05909)
 - [MAGSAC++] Marginalizing Sample Consensus, TPAMI'2022 [[pdf]](https://ieeexplore.ieee.org/document/9511155) [[code]](https://github.com/danini/magsac)
-  
+- [BANSAC] BANSAC: A dynamic BAyesian Network for adaptive SAmple Consensus,ICCV'2023[[pdf]]((https://openaccess.thecvf.com/content/ICCV2023/papers/Piedade_BANSAC_A_Dynamic_BAyesian_Network_for_Adaptive_SAmple_Consensus_ICCV_2023_paper.pdf)[[code]](https://github.com/merlresearch/bansac)
+
 ### Non-parametric Model-Based Methods
 - Fast non-rigid surface detection, registration and realistic augmentation.,IJCV'2007[[pdf]](https://vincentlepetit.github.io/files/papers/comp_pilet_ijcv07.pdf)
 - Direct estimation of nonrigid registrations with image-based self-occlusion reasoning.,ICCV'2007,[[pdf]](https://ieeexplore.ieee.org/document/4408989)
@@ -118,6 +119,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [CasMTR] Improving Transformer-based Image Matching by Cascaded Capturing Spatially Informative Keypoints,ICCV'2023[[pdf]](https://arxiv.org/abs/2303.02885)[[code]](https://github.com/ewrfcas/CasMTR)
 - [GlueStick] GlueStick: Robust Image Matching by Sticking Points and Lines Together, ICCV'2023 [[pdf]](https://arxiv.org/pdf/2304.02008.pdf) [[code]](https://github.com/cvg/GlueStick)
 - [∇-RANSAC] Generalized Differentiable RANSAC,ICCV'2023[[pdf]](https://arxiv.org/pdf/2212.13185.pdf)[[code]](https://github.com/weitong8591/differentiable_ransac)
+
 - [CA-RANSAC] Consensus-Adaptive RANSAC,arxiv'2023[[pdf]](https://arxiv.org/pdf/2307.14030.pdf)[[code]](https://github.com/cavalli1234/CA-RANSAC)
 - [OAMatcher] OAMatcher: An Overlapping Areas-based Network for Accurate Local Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2302.05846)[[code]](https://github.com/DK-HU/OAMatcher)
 - [SGAM] Searching from Area to Point: A Hierarchical Framework for Semantic-Geometric Combined Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2305.00194)
@@ -127,6 +129,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [DeepMatcher] DeepMatcher: A deep transformer-based network for robust and accurate local feature matching,ESWA'2023[[pdf]](https://arxiv.org/abs/2301.02993)
 - Topological RANSAC for instance verification and retrieval without fine-tuning,NeurIPS'2023[[pdf]](https://arxiv.org/abs/2310.06486)[[code]](https://github.com/anguoyuan/Topological-RANSAC)
 - Emergent Correspondence from Image Diffusion,NeurIPS'2023[[pdf]](https://arxiv.org/abs/2306.03881)[[code]](https://github.com/Tsingularity/dift)
+- [AMatFormer] AMatFormer: Efficient Feature Matching via Anchor Matching Transformer,TMM'2023[[pdf]](https://arxiv.org/pdf/2305.19205.pdf)
 - [RoMa] RoMa: Robust Dense Feature Matching, CVPR'2024 [[pdf]](https://arxiv.org/abs/2305.15404) [[code]](https://github.com/Parskatt/RoMa)
 - [MESA] MESA: Matching Everything by Segmenting Anything, CVPR'2024 [[pdf]](https://arxiv.org/abs/2401.16741)
 - [Efficient LoFTR] Efficient LoFTR: Semi-Dense Local Feature Matching with Sparse-Like Speed, CVPR'2024 [[pdf]](https://zju3dv.github.io/efficientloftr/files/EfficientLoFTR.pdf) [[code]](https://github.com/zju3dv/efficientloftr)
@@ -137,8 +140,8 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [BCLNet] BCLNet: Bilateral Consensus Learning for Two-View Correspondence Pruning,AAAI'2024[[pdf]](https://arxiv.org/abs/2401.03459)
 - [MSGA-Net] MSGA-Net: Progressive Feature Matching via Multi-layer Sparse Graph Attention,TCSVT'2024[[pdf]](https://ieeexplore.ieee.org/document/10439184)
 - [GIM] GIM: Learning Generalizable Image Matcher From Internet Videos,ICLR'2024[[pdf]](https://arxiv.org/abs/2402.11095)[[code]](https://github.com/xuelunshen/gim)
-- Diffusion Model for Dense Matching，ICLR'2024[[pdf]](https://arxiv.org/pdf/2305.19094.pdf)[[code]](https://github.com/KU-CVLAB/DiffMatch)
-- 
+- Diffusion Model for Dense Matching,ICLR'2024[[pdf]](https://arxiv.org/pdf/2305.19094.pdf)[[code]](https://github.com/KU-CVLAB/DiffMatch)
+- [HCPM] HCPM: Hierarchical Candidates Pruning for Efficient Detector-Free Matching,arxiv'2024[[pdf]](https://arxiv.org/pdf/2403.12543.pdf)
 
 
 
