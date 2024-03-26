@@ -117,6 +117,8 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [SiLK] SiLK: Simple Learned Keypoints,ICCV'2023[[pdf]](https://arxiv.org/abs/2304.06194)[[code]](https://github.com/facebookresearch/silk)
 - [CasMTR] Improving Transformer-based Image Matching by Cascaded Capturing Spatially Informative Keypoints,ICCV'2023[[pdf]](https://arxiv.org/abs/2303.02885)[[code]](https://github.com/ewrfcas/CasMTR)
 - [GlueStick] GlueStick: Robust Image Matching by Sticking Points and Lines Together, ICCV'2023 [[pdf]](https://arxiv.org/pdf/2304.02008.pdf) [[code]](https://github.com/cvg/GlueStick)
+- [∇-RANSAC] Generalized Differentiable RANSAC,ICCV'2023[[pdf]](https://arxiv.org/pdf/2212.13185.pdf)[[code]](https://github.com/weitong8591/differentiable_ransac)
+- [CA-RANSAC] Consensus-Adaptive RANSAC,arxiv'2023[[pdf]](https://arxiv.org/pdf/2307.14030.pdf)[[code]](https://github.com/cavalli1234/CA-RANSAC)
 - [OAMatcher] OAMatcher: An Overlapping Areas-based Network for Accurate Local Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2302.05846)[[code]](https://github.com/DK-HU/OAMatcher)
 - [SGAM] Searching from Area to Point: A Hierarchical Framework for Semantic-Geometric Combined Feature Matching,arxiv'2023[[pdf]](https://arxiv.org/abs/2305.00194)
 - Sparse-to-Local-Dense Matching for Geometry-Guided Correspondence Estimation,TIP'2023[[pdf]](https://ieeexplore.ieee.org/document/10159656)
