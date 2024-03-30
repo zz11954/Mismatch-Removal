@@ -31,7 +31,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [P-NAPSAC] Progressive NAPSAC: sampling from gradually growing neighborhoods,2019[[pdf]](https://arxiv.org/abs/1906.02295)
 - [MAGSAC++] MAGSAC++, a fast, reliable and accurate robust estimator,CVPR'2020[[pdf]](https://arxiv.org/abs/1912.05909)
 - [MAGSAC++] Marginalizing Sample Consensus, TPAMI'2022 [[pdf]](https://ieeexplore.ieee.org/document/9511155) [[code]](https://github.com/danini/magsac)
-- [BANSAC] BANSAC: A dynamic BAyesian Network for adaptive SAmple Consensus,ICCV'2023[[pdf]]((https://openaccess.thecvf.com/content/ICCV2023/papers/Piedade_BANSAC_A_Dynamic_BAyesian_Network_for_Adaptive_SAmple_Consensus_ICCV_2023_paper.pdf)[[code]](https://github.com/merlresearch/bansac)
+- [BANSAC] BANSAC: A dynamic BAyesian Network for adaptive SAmple Consensus,ICCV'2023[[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Piedade_BANSAC_A_Dynamic_BAyesian_Network_for_Adaptive_SAmple_Consensus_ICCV_2023_paper.pdf)[[code]](https://github.com/merlresearch/bansac)
 
 ### Non-parametric Model-Based Methods
 - Fast non-rigid surface detection, registration and realistic augmentation.,IJCV'2007[[pdf]](https://vincentlepetit.github.io/files/papers/comp_pilet_ijcv07.pdf)
