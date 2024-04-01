@@ -145,8 +145,8 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [GIM] GIM: Learning Generalizable Image Matcher From Internet Videos,ICLR'2024[[pdf]](https://arxiv.org/abs/2402.11095)[[code]](https://github.com/xuelunshen/gim)
 - Diffusion Model for Dense Matching,ICLR'2024[[pdf]](https://arxiv.org/pdf/2305.19094.pdf)[[code]](https://github.com/KU-CVLAB/DiffMatch)
 - [HCPM] HCPM: Hierarchical Candidates Pruning for Efficient Detector-Free Matching,arxiv'2024[[pdf]](https://arxiv.org/pdf/2403.12543.pdf)
--[SSL-Net] SSL-Net: Sparse semantic learning for identifying reliable correspondences,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S0031320323007367)[[code]](https://github.com/guobaoxiao/SSL-Net)
-- Local topology similarity guided probabilistic sampling for mismatch removal PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S003132032400044X)
+- [SSL-Net] SSL-Net: Sparse semantic learning for identifying reliable correspondences,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S0031320323007367)[[code]](https://github.com/guobaoxiao/SSL-Net)
+- Local topology similarity guided probabilistic sampling for mismatch removal ,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S003132032400044X)
 
 
 
