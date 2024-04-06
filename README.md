@@ -21,7 +21,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [LO-RANSAC] Locally Optimized RANSAC,2003,[[pdf]](https://cmp.felk.cvut.cz/~chum/papers/chum-DAGM03.pdf)
 - [PROSAC] Matching with PROSAC-progressive sample consensus, CVPR'2005 [[pdf]](https://dspace.cvut.cz/bitstream/handle/10467/9496/2005-Matching-with-PROSAC-progressive-sample-consensus.pdf?sequence=1) [[code_pcl]](https://github.com/PointCloudLibrary/pcl/tree/master/sample_consensus/include/pcl/sample_consensus)
 - [GroupSAC] GroupSAC: Efficient consensus in the presence of groupings,ICCV'2009 [[pdf]](https://ieeexplore.ieee.org/document/5459241)
-- [USAC] A universal framework for random sample consensus.TPAMI'2012,[[pdf]](https://ieeexplore.ieee.org/document/6365642)
+- [USAC] A universal framework for random sample consensus.TPAMI'2012,[[pdf]](https://rahulraguram.com/assets/pdf/RaguramPAMI13.pdf)
 - [DefRANSAC] In defence of RANSAC for outlier rejection in deformable registration, ECCV'2012 [[pdf]](https://media.adelaide.edu.au/acvt/Publications/2012/2012-In%20Defence%20of%20RANSAC%20for%20Outlier%20Rejection%20in%20Deformable%20Registration.pdf) [[code]](https://cs.adelaide.edu.au/~tjchin/lib/exe/fetch.php?media=code:eccv12code.zip)
 - [EVSAC] EVSAC: Accelerating Hypotheses Generation by Modeling Matching Scores with Extreme Value Theory, ICCV'2013 [[pdf]](https://ieeexplore.ieee.org/document/6751418)
 - [WxBS] WxBS: Wide Baseline Stereo Generalizations, BMVC'2015 [[pdf]](https://arxiv.org/pdf/1504.06603) [[project]](http://cmp.felk.cvut.cz/wbs/)
