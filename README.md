@@ -32,6 +32,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [MAGSAC++] MAGSAC++, a fast, reliable and accurate robust estimator,CVPR'2020[[pdf]](https://arxiv.org/abs/1912.05909)
 - [MAGSAC++] Marginalizing Sample Consensus, TPAMI'2022 [[pdf]](https://ieeexplore.ieee.org/document/9511155) [[code]](https://github.com/danini/magsac)
 - [BANSAC] BANSAC: A dynamic BAyesian Network for adaptive SAmple Consensus,ICCV'2023[[pdf]](https://openaccess.thecvf.com/content/ICCV2023/papers/Piedade_BANSAC_A_Dynamic_BAyesian_Network_for_Adaptive_SAmple_Consensus_ICCV_2023_paper.pdf)[[code]](https://github.com/merlresearch/bansac)
+- Local topology similarity guided probabilistic sampling for mismatch removal ,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S003132032400044X)
 
 ### Non-parametric Model-Based Methods
 - Fast non-rigid surface detection, registration and realistic augmentation.,IJCV'2007[[pdf]](https://vincentlepetit.github.io/files/papers/comp_pilet_ijcv07.pdf)
@@ -76,7 +77,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - [DFE] Deep fundamental matrix estimation, ECCV'2018[[pdf]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Rene_Ranftl_Deep_Fundamental_Matrix_ECCV_2018_paper.pdf) [[code]](https://github.com/isl-org/DFE)
 - [N3Net] Neural Nearest Neighbors Networks, NeurIPS'2018 [[code]](https://github.com/visinf/n3net/)
 - [NM-Net] NM-Net: Mining Reliable Neighbors for Robust Feature Correspondences, arXiv'2019 [[pdf]](https://arxiv.org/pdf/1904.00320)
-- [OANet] Learning Two-View Correspondences and Geometry Using Order-Aware Network ICCV'2019 [[code]](https://github.com/zjhthu/OANet)
+- [OANet] Learning Two-View Correspondences and Geometry Using Order-Aware Network,ICCV'2019 [[code]](https://github.com/zjhthu/OANet)
 - [LMR] LMR: Learning A Two-class Classifier for Mismatch Removal, TIP'2019 [[pdf]](https://starainj.github.io/Files/TIP2019-LMR.pdf) [[code]](https://github.com/StaRainJ/LMR)
 - [NG-RANSAC] Neural-Guided RANSAC: Learning Where to Sample Model Hypotheses, ICCV'2019 [[pdf](https://arxiv.org/pdf/1905.04132.pdf)] [[code](https://github.com/vislearn/ngransac)] [[project](https://hci.iwr.uni-heidelberg.de/vislearn/research/neural-guided-ransac/)]
 - [ULCM] Unsupervised Learning of Consensus Maximization for 3D Vision Problems, CVPR'2019 [[pdf]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Probst_Unsupervised_Learning_of_Consensus_Maximization_for_3D_Vision_Problems_CVPR_2019_paper.pdf)
@@ -146,7 +147,7 @@ Methods for eliminating mismatches can be broadly classified into manual methods
 - Diffusion Model for Dense Matching,ICLR'2024[[pdf]](https://arxiv.org/pdf/2305.19094.pdf)[[code]](https://github.com/KU-CVLAB/DiffMatch)
 - [HCPM] HCPM: Hierarchical Candidates Pruning for Efficient Detector-Free Matching,arxiv'2024[[pdf]](https://arxiv.org/pdf/2403.12543.pdf)
 - [SSL-Net] SSL-Net: Sparse semantic learning for identifying reliable correspondences,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S0031320323007367)[[code]](https://github.com/guobaoxiao/SSL-Net)
-- Local topology similarity guided probabilistic sampling for mismatch removal ,PR'2024[[pdf]](https://www.sciencedirect.com/science/article/pii/S003132032400044X)
+
 
 
 
